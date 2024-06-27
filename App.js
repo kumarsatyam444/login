@@ -8,6 +8,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Stack = createStackNavigator();
 
+//Login Page
+
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -54,6 +56,8 @@ const LoginScreen = ({ navigation }) => {
     </ImageBackground>
   );
 };
+
+//Welcomescreen page
 
 const WelcomeScreen = ({ navigation }) => {
   const [name, setName] = useState('');
@@ -124,6 +128,8 @@ const WelcomeScreen = ({ navigation }) => {
     </ImageBackground>
   );
 };
+
+//Profile Page
 
 const ProfileCard = ({ profile }) => {
   return (
